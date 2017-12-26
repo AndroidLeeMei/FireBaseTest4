@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--<ImageView-->
+    <!--android:id="@+id/imageView"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--app:srcCompat="@mipmap/ic_launcher"-->
+    <!--android:layout_alignBottom="@+id/lstcheckBox"-->
+    <!--android:layout_toLeftOf="@+id/lstcheckBox"-->
+    <!--android:layout_toStartOf="@+id/lstcheckBox"-->
+    <!--android:layout_marginRight="78dp"-->
+    <!--android:layout_marginEnd="78dp" />-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/lblListItem"
+        android:textSize="25sp"
+
+        android:layout_alignParentTop="true"
+
+        android:layout_marginRight="18dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginTop="17dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+    <!--<ImageView-->
+        <!--android:id="@+id/imageView"-->
+        <!--android:layout_width="80dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:src="@drawable/big_mac"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_alignParentStart="true" />-->
+
+    <!--app:srcCompat="@drawable"-->
+    <!--<Spinner-->
+        <!--android:id="@+id/spinner"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:prompt="@string/spinner_title"-->
+        <!--android:layout_alignBottom="@+id/lblListItem"-->
+        <!--android:layout_toLeftOf="@+id/imageButton4"-->
+        <!--android:layout_toStartOf="@+id/imageButton4" />-->
+
+    <!--<CheckBox-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text=""-->
+        <!--android:focusable="false"-->
+        <!--android:id="@+id/lstcheckBox"-->
+        <!--android:layout_alignBottom="@+id/lblListItem"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_alignParentEnd="true" />-->
+
+    <!--<ImageButton-->
+        <!--android:id="@+id/imgbtnUpdate"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--app:srcCompat="@android:drawable/ic_menu_edit"-->
+        <!--android:layout_marginRight="16dp"-->
+        <!--android:layout_marginEnd="16dp"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_toLeftOf="@+id/imgbtnDelete"-->
+        <!--android:layout_toStartOf="@+id/imgbtnDelete" />-->
+
+    <ImageButton
+        android:id="@+id/imgbtnDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/ic_menu_delete"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <!--<ImageButton-->
+        <!--android:id="@+id/imageButton6"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_above="@+id/spinner"-->
+        <!--android:layout_toEndOf="@+id/lblListItem"-->
+        <!--android:layout_toRightOf="@+id/lblListItem"-->
+        <!--app:srcCompat="?android:attr/actionModePasteDrawable" />-->
+
+</RelativeLayout>
+
+

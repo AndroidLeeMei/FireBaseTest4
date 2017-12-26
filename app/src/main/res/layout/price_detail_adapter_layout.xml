@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:descendantFocusability="blocksDescendants">
+
+
+    <TextView
+        android:id="@+id/txHouseAddr"
+        android:layout_width="232dp"
+        android:layout_height="37dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="0dp"
+        android:textSize="22dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imgbtnDelete"
+        android:layout_width="48dp"
+        android:layout_height="37dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="-6dp"
+        app:layout_constraintLeft_toRightOf="@+id/checkBox"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_delete" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="83dp"
+        android:layout_height="37dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:text="確認"
+        android:textSize="20dp"
+        app:layout_constraintLeft_toRightOf="@+id/txHouseAddr"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>

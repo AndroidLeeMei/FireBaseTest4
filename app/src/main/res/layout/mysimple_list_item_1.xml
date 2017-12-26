@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:descendantFocusability="blocksDescendants">
+
+
+    <TextView
+        android:id="@+id/txHouseAddr"
+        android:layout_width="259dp"
+        android:layout_height="38dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="0dp"
+        android:textSize="22dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/chkTent"
+        android:layout_width="138dp"
+        android:layout_height="27dp"
+        android:text="房客表示已付款"
+        android:layout_marginLeft="0dp"
+        app:layout_constraintLeft_toLeftOf="@+id/txTentNote"
+        android:layout_marginTop="0dp"
+        app:layout_constraintTop_toBottomOf="@+id/txTentNote" />
+
+    <CheckBox
+        android:id="@+id/chkLand"
+        android:layout_width="138dp"
+        android:layout_height="23dp"
+        android:text="房東已確認付款"
+        app:layout_constraintLeft_toRightOf="@+id/chkTent"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        app:layout_constraintTop_toBottomOf="@+id/txTentNote" />
+
+    <TextView
+        android:id="@+id/txTentNote"
+        android:layout_width="260dp"
+        android:layout_height="39dp"
+        android:layout_marginLeft="0dp"
+        android:textSize="23dp"
+        app:layout_constraintLeft_toLeftOf="@+id/txHouseAddr"
+        android:layout_marginTop="0dp"
+        app:layout_constraintTop_toBottomOf="@+id/txHouseAddr" />
+
+    <Button
+        android:id="@+id/btnDelhouse"
+        style="@android:style/Widget.Button.Inset"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:onClick="addTenant"
+        android:text="刪除房屋"
+        android:textSize="20dp"
+        app:layout_constraintLeft_toRightOf="@+id/txHouseAddr"
+        android:layout_marginLeft="0dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="0dp" />
+
+
+    <Button
+        android:id="@+id/btnMessage"
+        style="@android:style/Widget.Button.Inset"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="-5dp"
+        android:text="新增留言"
+        android:textSize="20dp"
+        app:layout_constraintLeft_toRightOf="@+id/txTentNote"
+        android:layout_marginTop="-14dp"
+        app:layout_constraintTop_toBottomOf="@+id/btnDelhouse" />
+
+</android.support.constraint.ConstraintLayout>

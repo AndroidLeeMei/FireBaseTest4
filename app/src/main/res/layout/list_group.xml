@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+    android:orientation="horizontal"
+    android:padding="8dp">
+
+
+    <TextView
+        android:id="@+id/lblListHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="?android:attr/expandableListPreferredItemPaddingLeft"
+        android:textColor="#000000"
+        android:textSize="27dp" />
+
+    <!--<Button-->
+        <!--android:id="@+id/btnAddTenant"-->
+        <!--android:layout_width="67dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="新增租客" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/btnDelHouse"-->
+        <!--android:layout_width="74dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="刪除房屋" />-->
+
+</LinearLayout>

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.06"
+        android:background="@android:color/holo_orange_dark"
+        android:ems="30"
+        android:text="請適當調整日期及輸入費用"
+        android:textColor="@android:color/background_light"
+        android:textSize="25dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="2"
+            android:text="租金"
+            android:textSize="25dp"
+            />
+        <ImageButton
+            android:id="@+id/imgRentDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@android:drawable/ic_lock_idle_alarm" />
+        <TextView
+            android:id="@+id/txRentDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:ems="5"
+            android:textSize="25dp"
+            />
+
+
+        <EditText
+            android:id="@+id/etRent"
+            android:layout_width="99dp"
+            android:layout_height="wrap_content"
+            android:ems="4"
+            android:inputType="number"
+            android:textSize="25dp"
+            android:layout_weight="0.53" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="2"
+            android:text="水費"
+            android:textSize="25dp" />
+
+        <ImageButton
+            android:id="@+id/imgWaterDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@android:drawable/ic_lock_idle_alarm" />
+        <TextView
+            android:id="@+id/txWaterDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:ems="5"
+            android:textSize="25dp"
+            />
+        <EditText
+            android:id="@+id/etWater"
+            android:layout_width="99dp"
+            android:layout_height="wrap_content"
+            android:ems="4"
+            android:inputType="number"
+            android:textSize="25dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="2"
+            android:text="電費"
+            android:textSize="25dp" />
+
+        <ImageButton
+            android:id="@+id/imgEleDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@android:drawable/ic_lock_idle_alarm" />
+        <TextView
+            android:id="@+id/txEleDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:ems="5"
+            android:textSize="25dp"
+            />
+        <EditText
+            android:id="@+id/etElectricity"
+            android:layout_width="99dp"
+            android:layout_height="wrap_content"
+            android:ems="4"
+            android:inputType="number"
+            android:textSize="25dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="3"
+            android:text="管理費"
+            android:textSize="20dp" />
+
+        <ImageButton
+            android:id="@+id/imgManagement"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            app:srcCompat="@android:drawable/ic_lock_idle_alarm" />
+        <TextView
+            android:id="@+id/txManDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:ems="5"
+            android:textSize="25dp"
+            />
+        <EditText
+            android:id="@+id/etManagement"
+            android:layout_width="99dp"
+            android:layout_height="wrap_content"
+            android:ems="4"
+            android:inputType="number"
+            android:textSize="25dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <Button
+        android:id="@+id/btnConfirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="確定" />
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="取消" />
+    </LinearLayout>
+</LinearLayout>
